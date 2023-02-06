@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bed02fdb0c7e4001945cd56cb6dfbf2c, type: 3}
+  m_Name: DialogueData_SO
+  m_EditorClassIdentifier: 
+  dialoguePieceList:
+  - dialogueID: 0
+    image: {fileID: 0}
+    targetIndex: 1
+    text: "\u4F60\u597D"
+    questData: {fileID: 0}
+    NpcSpriteType: 0
+    PlayerSpriteType: 0
+    dialogueOptionList: []
+  - dialogueID: 1
+    image: {fileID: 0}
+    targetIndex: 2
+    text: "\u5403\u4E86\u4E48"
+    questData: {fileID: 0}
+    NpcSpriteType: 0
+    PlayerSpriteType: 0
+    dialogueOptionList:
+    - text: "\u6CA1\u5403"
+      targetDialogueIndex: 2
+      taskQuest: 0
+    - text: "\u5403\u4E86"
+      targetDialogueIndex: 3
+      taskQuest: 0
+  - dialogueID: 2
+    image: {fileID: 0}
+    targetIndex: 3
+    text: "\u5403\u4EC0\u4E48"
+    questData: {fileID: 0}
+    NpcSpriteType: 0
+    PlayerSpriteType: 0
+    dialogueOptionList: []
+  - dialogueID: 3
+    image: {fileID: 0}
+    targetIndex: 200
+    text: "\u6211\u8FD9\u91CC\u6709\u4E00\u4E2A\u91C7\u96C6\u4EFB\u52A1\u9700\u8981\u5E2E\u5FD9"
+    questData: {fileID: 11400000, guid: c580a5ecc89a64abb935dd58962a75b5, type: 2}
+    NpcSpriteType: 0
+    PlayerSpriteType: 0
+    dialogueOptionList:
+    - text: ok
+      targetDialogueIndex: 9999
+      taskQuest: 1
+    - text: "\u6211\u6E9C\u4E86"
+      targetDialogueIndex: 9999
+      taskQuest: 0

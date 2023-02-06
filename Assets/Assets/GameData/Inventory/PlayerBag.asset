@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bfbce8425fdff14ca14d1811e1350c0, type: 3}
+  m_Name: PlayerBag
+  m_EditorClassIdentifier: 
+  itemlist:
+  - ItemID: 1003
+    ItemNum: 72
+  - ItemID: 1038
+    ItemNum: 154
+  - ItemID: 1025
+    ItemNum: 1
+  - ItemID: 1030
+    ItemNum: 100
+  - ItemID: 1026
+    ItemNum: 1
+  - ItemID: 1022
+    ItemNum: 15
+  - ItemID: 1027
+    ItemNum: 1
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 1034
+    ItemNum: 1
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 1023
+    ItemNum: 1
+  - ItemID: 1001
+    ItemNum: 1
+  - ItemID: 1024
+    ItemNum: 1
+  - ItemID: 1029
+    ItemNum: 92
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0
+  - ItemID: 0
+    ItemNum: 0

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf684d0a41e4af0896adda2a0405704, type: 3}
+  m_Name: OldManDialogueSpriteData 1
+  m_EditorClassIdentifier: 
+  characterName: "\u6751\u957F"
+  defaultSprite: {fileID: 21300000, guid: 63a5eb4156cc3417896789f322630021, type: 3}
+  happySprite: {fileID: 21300000, guid: 7951faae60d314030a0981ea02e3c592, type: 3}
+  supperHappySprite: {fileID: 21300000, guid: 7951faae60d314030a0981ea02e3c592, type: 3}
+  surpriseSprite: {fileID: 21300000, guid: 602815581e11949c69342f9e76c868f4, type: 3}
+  sadSprite: {fileID: 0}
+  suspectSprite: {fileID: 0}

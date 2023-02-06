@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf684d0a41e4af0896adda2a0405704, type: 3}
+  m_Name: PlayerDialogueSpriteData
+  m_EditorClassIdentifier: 
+  characterName: Player
+  defaultSprite: {fileID: 21300000, guid: 9250cb0d0524f439fb2e48d5ecc828e5, type: 3}
+  happySprite: {fileID: 21300000, guid: e62c299aa3fef458f9f46e8a98fc0608, type: 3}
+  supperHappySprite: {fileID: 21300000, guid: e62c299aa3fef458f9f46e8a98fc0608, type: 3}
+  surpriseSprite: {fileID: 21300000, guid: 36e7d59ac1efc4cf7bc6a250df52e2b4, type: 3}
+  sadSprite: {fileID: 21300000, guid: 91720d10e0c0c489f80bd693c4a619b1, type: 3}
+  suspectSprite: {fileID: 21300000, guid: 2acedd98a2e4247569fc702d2b8fc91d, type: 3}

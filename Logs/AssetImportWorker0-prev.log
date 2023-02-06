@@ -1,0 +1,964 @@
+Unity Editor version:    2021.2.10f1c1 (79ebcf01f00f)
+Branch:                  2021.2/china_unity/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3 (Build 21E230)
+Darwin version:          21.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.2.10f1c1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/amber/Icebin
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58834
+Successfully changed project path to: /Users/amber/Icebin
+/Users/amber/Icebin
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 79.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.10f1c1 (79ebcf01f00f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.10f1c1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/amber/Icebin/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+Metal devices available: 2
+0: AMD Radeon Pro 5300M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.10f1c1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.10f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.2.10f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56399
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.10f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.10f1c1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000799 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 71.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Domain Reload Profiling:
+	ReloadAssembly (719ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (535ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003803 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 58.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.770 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2771ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (2530ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (2044ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (1870ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.2.10f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2583 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (116.6 KB). Loaded Objects now: 3052.
+Memory consumption went from 229.8 MB to 229.7 MB.
+Total: 4.028586 ms (FindLiveObjects: 0.237612 ms CreateObjectMapping: 0.164820 ms MarkObjects: 3.524309 ms  DeleteObjects: 0.101071 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 126332.283910 seconds.
+  path: Assets/Assets/M Studio/Art/Characters/Player/Tools/Reap/ReapToolRight.png
+  artifactKey: Guid(359a727f710ec4481b12d12e643e34bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Characters/Player/Tools/Reap/ReapToolRight.png using Guid(359a727f710ec4481b12d12e643e34bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00cff716e59f1c1bc4fb4ecdad68c65c') in 1.282776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.483737 seconds.
+  path: Assets/Assets/M Studio/Art/Trees/yellow/pink_18.png
+  artifactKey: Guid(5e7df212d2068499487f4c21c6671eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Trees/yellow/pink_18.png using Guid(5e7df212d2068499487f4c21c6671eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d4f580c60520bc8d64fe67ac1b4251') in 0.016815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094483 seconds.
+  path: Assets/Assets/M Studio/Art/Trees/pink/pink_15.png
+  artifactKey: Guid(3ad8604bbca5344e4bad37ade7ce103e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Trees/pink/pink_15.png using Guid(3ad8604bbca5344e4bad37ade7ce103e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3557f9aacc77fd882ab5d9bb61874ac') in 0.017283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Assets/M Studio/Art/Trees/pink/pink_16.png
+  artifactKey: Guid(8423f811c99ed44cab60dbc74c0466d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Trees/pink/pink_16.png using Guid(8423f811c99ed44cab60dbc74c0466d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282031d616a448d23f9d200130480dc7') in 0.015699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.476951 seconds.
+  path: Assets/Assets/M Studio/Art/Trees/yellow/pink_13.png
+  artifactKey: Guid(5327be5608d3b432c8417d6f003663f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Trees/yellow/pink_13.png using Guid(5327be5608d3b432c8417d6f003663f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fb261204efeeb88bdb03b03a0163f4') in 0.020269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Assets/M Studio/Art/Trees/pink/pink_11.png
+  artifactKey: Guid(7095c6426b5e54ef880c11cc15c17e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Trees/pink/pink_11.png using Guid(7095c6426b5e54ef880c11cc15c17e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc90e78db5d5b3ebb2d1c27ab759a6b') in 0.018852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Assets/M Studio/Art/Trees/pink/pink_12.png
+  artifactKey: Guid(bd8ce2da74cf84c7db401f60c06c71be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Trees/pink/pink_12.png using Guid(bd8ce2da74cf84c7db401f60c06c71be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c443bdd3ab2a0c0570e133b7a283608') in 0.017583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Assets/M Studio/Art/Trees/pink/pink_10.png
+  artifactKey: Guid(5fd8e32cede4641559feb6f5581cd9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Trees/pink/pink_10.png using Guid(5fd8e32cede4641559feb6f5581cd9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a0575afc92a7648fd23ab15a0dec25') in 0.024435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Assets/M Studio/Art/Trees/yellow/pink_11.png
+  artifactKey: Guid(c378e2ef5849e4cf798a58322802176f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Trees/yellow/pink_11.png using Guid(c378e2ef5849e4cf798a58322802176f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27230b63428f8a56c630951be0067ca9') in 0.023210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004517 seconds.
+  path: Assets/Assets/M Studio/Art/Trees/pink/pink_08.png
+  artifactKey: Guid(4f8c8210c786743f28e98600a10a59a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Trees/pink/pink_08.png using Guid(4f8c8210c786743f28e98600a10a59a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b38be325a7f6ca2fedab6cb73b067c') in 0.017285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Assets/M Studio/Art/Trees/pink/pink_09.png
+  artifactKey: Guid(d5776c4d7f59b4df9b02269e04ae76fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Trees/pink/pink_09.png using Guid(d5776c4d7f59b4df9b02269e04ae76fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25793170138d5f4cbb76070ff233988') in 0.020227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Assets/M Studio/Art/Trees/yellow/pink_10.png
+  artifactKey: Guid(5974239e7266247ee89f320c5b2268cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Trees/yellow/pink_10.png using Guid(5974239e7266247ee89f320c5b2268cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a225fc15dad8befc358dd9c2b4b2cf53') in 0.021719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.001368 seconds.
+  path: Assets/Assets/M Studio/Art/Trees/yellow/pink_05.png
+  artifactKey: Guid(f54885a35865d4be49cc4e7dfa65c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Trees/yellow/pink_05.png using Guid(f54885a35865d4be49cc4e7dfa65c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9585be3014b31083696c73ecfb40ea') in 0.029750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Assets/M Studio/Art/Trees/yellow/pink_06.png
+  artifactKey: Guid(0a98b7e04f8544b7b883bf29fe975a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Trees/yellow/pink_06.png using Guid(0a98b7e04f8544b7b883bf29fe975a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec897953dea614801752deaae0fbf805') in 0.020515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.453931 seconds.
+  path: Assets/Assets/M Studio/Art/Trees/pink/pink_05.png
+  artifactKey: Guid(27f918eb2bc494cc4b2ef6d883317e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Trees/pink/pink_05.png using Guid(27f918eb2bc494cc4b2ef6d883317e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe5a26b970541415aa3c50ae1d54307') in 0.014363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.070507 seconds.
+  path: Assets/Assets/M Studio/Art/Intro/Sea/lighting_02.png
+  artifactKey: Guid(6658f89a4eef946d69d0fc36dc059831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Intro/Sea/lighting_02.png using Guid(6658f89a4eef946d69d0fc36dc059831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c2f3828280af3132bae7368a2ab68c') in 0.013992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.344319 seconds.
+  path: Assets/Assets/M Studio/Art/Characters/Player/Hair/HairReapLeft.png
+  artifactKey: Guid(549bd39fed6d141a9965676c2b4557d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Characters/Player/Hair/HairReapLeft.png using Guid(549bd39fed6d141a9965676c2b4557d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926ba36a5ccc2f8dcdafba1db6d99c31') in 0.038595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.411507 seconds.
+  path: Assets/Assets/M Studio/Art/Characters/Player/Hair/HairPullRight.png
+  artifactKey: Guid(ba7082f9767c44dc390115a2980c6ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Characters/Player/Hair/HairPullRight.png using Guid(ba7082f9767c44dc390115a2980c6ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0549e6b22582dcf866dff67a5fe27d17') in 0.034199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.134949 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Volume 3 Icon.png
+  artifactKey: Guid(e153e7320d1c3b247b8dd9913128265a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Volume 3 Icon.png using Guid(e153e7320d1c3b247b8dd9913128265a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27db98a46fd11cd10d17c0a3e7054cbb') in 0.019525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Volume 4 Icon.png
+  artifactKey: Guid(e9b63031b6e86be44adab37645278daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Volume 4 Icon.png using Guid(e9b63031b6e86be44adab37645278daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f4e714da604934090737fad3c5d028') in 0.018263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.137671 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Upload 2 Icon.png
+  artifactKey: Guid(e9923c6d5bf099243b4b1ce45e68853a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Upload 2 Icon.png using Guid(e9923c6d5bf099243b4b1ce45e68853a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c1b44be8bdfd729f6aa0f851dcc845') in 0.017413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Upload Cloud Icon.png
+  artifactKey: Guid(5a20439d7b6619c40a0ef94f13d18bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Upload Cloud Icon.png using Guid(5a20439d7b6619c40a0ef94f13d18bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4795396873b6aec5618192ca77f3c8') in 0.018060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.296379 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 101 Icon.png
+  artifactKey: Guid(b5d747335d1bafb43915c028619955af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 101 Icon.png using Guid(b5d747335d1bafb43915c028619955af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f916b731ab8d05899f05d0a00720fb') in 0.020394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up Off Icon.png
+  artifactKey: Guid(b626bfb4f029b8e49841dbd66431319f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up Off Icon.png using Guid(b626bfb4f029b8e49841dbd66431319f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5c479ce28580498a48bd013d8d1a1a') in 0.021491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Solid Brush Icon.png
+  artifactKey: Guid(1bc1adfe09a4215459e403f002a487df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Solid Brush Icon.png using Guid(1bc1adfe09a4215459e403f002a487df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fdcdbd60b11eb71399a7a72f9503af') in 0.018824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Thumb Right Icon.png
+  artifactKey: Guid(2514675ace6b54a4b86f2e955361c8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Thumb Right Icon.png using Guid(2514675ace6b54a4b86f2e955361c8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dd0e08e4a6bb8ee5b311158f02f7ab') in 0.024646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Centre Icon.png
+  artifactKey: Guid(da098e9c51c4f7d42bd00970713bfc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Centre Icon.png using Guid(da098e9c51c4f7d42bd00970713bfc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee734b24abc825a7d54e2eba6c35226') in 0.019355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Thumbs Down Icon.png
+  artifactKey: Guid(44f10997f36483b40926d06c92414351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Thumbs Down Icon.png using Guid(44f10997f36483b40926d06c92414351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a7157d6a660bcc6ac56823dce2bf33') in 0.018637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Thumb Centre Icon.png
+  artifactKey: Guid(5ca38f46fb0ec0842bb1308f91141f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Thumb Centre Icon.png using Guid(5ca38f46fb0ec0842bb1308f91141f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f822e88ec703ee2dc318754e10c9a39f') in 0.019955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Cage Icon.png
+  artifactKey: Guid(c94014c28c49aed4ab93b4d5bedad6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Cage Icon.png using Guid(c94014c28c49aed4ab93b4d5bedad6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1740a74975bcd25f7b74c7f38b730f9a') in 0.019034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.104769 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 0 Icon.png
+  artifactKey: Guid(a7244b18d2f1b32478166258108232f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 0 Icon.png using Guid(a7244b18d2f1b32478166258108232f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bff9fcbef6fd7b4268ab35db3e085a') in 0.017041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 3 Icon.png
+  artifactKey: Guid(df6b34c8b502f7e48a79565096a23132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 3 Icon.png using Guid(df6b34c8b502f7e48a79565096a23132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd451af2931c86b91c7fb954bf29415e9') in 0.015407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 2 Icon.png
+  artifactKey: Guid(0eb838ecab1c6554cb140a94de6ce907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 2 Icon.png using Guid(0eb838ecab1c6554cb140a94de6ce907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494342fd623bbbc7c43764764fed92cd') in 0.015051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.140308 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat People 2 Icon.png
+  artifactKey: Guid(c2b97174e9f46424eae9d83a5ca15158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat People 2 Icon.png using Guid(c2b97174e9f46424eae9d83a5ca15158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd472cd38ba9b72248a50dd1a368e2db6') in 0.012994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Person Icon.png
+  artifactKey: Guid(cac9f704575bbe744b68791d16b1806a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Person Icon.png using Guid(cac9f704575bbe744b68791d16b1806a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5613ea508384bf288da542726c39f0d5') in 0.013348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat People 4 Icon.png
+  artifactKey: Guid(45a1cba1d3d949545a6edfcc72019549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat People 4 Icon.png using Guid(45a1cba1d3d949545a6edfcc72019549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a91a9d36947248016f51db29f84ebf9') in 0.015138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.432475 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Music No Dashless Icon.png
+  artifactKey: Guid(547bb804169b8084a8523d172c156a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Music No Dashless Icon.png using Guid(547bb804169b8084a8523d172c156a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe463b5bf69c69aff74a3bbb3599bc3') in 0.016054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Music No Icon.png
+  artifactKey: Guid(a631e872ceb8c434ead7ead22b772b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Music No Icon.png using Guid(a631e872ceb8c434ead7ead22b772b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f9f7467774d19d8b0baa9702183449') in 0.024102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.414705 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Move In_1 Icon.png
+  artifactKey: Guid(033336c308c8eb048a200b88b4c9012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Move In_1 Icon.png using Guid(033336c308c8eb048a200b88b4c9012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5708d618609099f3ef98fa1d0e737e8') in 0.015222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Move Out_1 Icon.png
+  artifactKey: Guid(c47d07607041a9e46ac5a017fa569294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Move Out_1 Icon.png using Guid(c47d07607041a9e46ac5a017fa569294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48be127524d6d6977ad94ddc69de0bde') in 0.017333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.478754 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic No Icon.png
+  artifactKey: Guid(a2209b713c93ece44babfd822911c69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic No Icon.png using Guid(a2209b713c93ece44babfd822911c69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183ce52918a380655ed29477002d9546') in 0.016660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic Off Dashless Icon.png
+  artifactKey: Guid(50fea1eac0ada9a46b84161f5c9db6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic Off Dashless Icon.png using Guid(50fea1eac0ada9a46b84161f5c9db6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de72eb704f94e4b78346710551051578') in 0.020566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.085695 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 11 Icon.png
+  artifactKey: Guid(cefa2b23d10c33e4182f330dffd33b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 11 Icon.png using Guid(cefa2b23d10c33e4182f330dffd33b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b43899396ae8277ac368b3c22a3d45') in 0.019198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic No Cross Icon.png
+  artifactKey: Guid(d5ad855c08e83c3409a8053c8f886d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic No Cross Icon.png using Guid(d5ad855c08e83c3409a8053c8f886d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947bcfa5ff0b93873aa1b02d757bc056') in 0.014719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 8 Icon.png
+  artifactKey: Guid(346e3b2dceb1a6c458d4271b170b3bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 8 Icon.png using Guid(346e3b2dceb1a6c458d4271b170b3bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085294e5b0bd97a414feef711f0f49bc') in 0.015763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 4 Icon.png
+  artifactKey: Guid(1ab4b47fe981ba54bb256ded73fe7301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 4 Icon.png using Guid(1ab4b47fe981ba54bb256ded73fe7301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288b037bff6285a74c1444df03a047a7') in 0.021323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Stop Icon.png
+  artifactKey: Guid(7d0e2c51f326f034bb2ac5081607bc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Stop Icon.png using Guid(7d0e2c51f326f034bb2ac5081607bc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8c6e6b793d516e12a6193829975c61') in 0.020691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 1 Icon.png
+  artifactKey: Guid(54edad069dc0f1148bf3ab0538fa2391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 1 Icon.png using Guid(54edad069dc0f1148bf3ab0538fa2391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadd8fd21df9344e9f488875656372cf') in 0.016464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 6 Icon.png
+  artifactKey: Guid(fe1f07455434e6a4db092145b8bdd1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 6 Icon.png using Guid(fe1f07455434e6a4db092145b8bdd1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f1f6099df982fc0cfc8865768cf9b4') in 0.018304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 5 Icon.png
+  artifactKey: Guid(6ecb7ae4ee0996f47a0663ebb676ff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 5 Icon.png using Guid(6ecb7ae4ee0996f47a0663ebb676ff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b055a862410b563e010fdd89eea5965') in 0.012975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.439488 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Pause Icon.png
+  artifactKey: Guid(5fc710f713ac1be468e5c8ef2b11239c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Pause Icon.png using Guid(5fc710f713ac1be468e5c8ef2b11239c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516f4725e40cbf97256e0f4b25966821') in 0.017514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Right Double Icon.png
+  artifactKey: Guid(22057aef5fa19f9489473012c242bba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Right Double Icon.png using Guid(22057aef5fa19f9489473012c242bba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b7cea0c4db4c885f04cf8139a14eec') in 0.024027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.163258 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Magnify Minus Icon.png
+  artifactKey: Guid(729052d35d545f2459aa6859cdcac322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Magnify Minus Icon.png using Guid(729052d35d545f2459aa6859cdcac322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22493e423880c128925ba2bc69b1c740') in 0.031698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Magnify Plus Icon.png
+  artifactKey: Guid(e8e788d00a023ef4ea9a8e321c8efb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Magnify Plus Icon.png using Guid(e8e788d00a023ef4ea9a8e321c8efb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbf5d5a273137315d97bd2d6a89c039') in 0.019334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.416596 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hyphen Icon.png
+  artifactKey: Guid(540b141eb0ec4494d9b42bd9ea32cd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hyphen Icon.png using Guid(540b141eb0ec4494d9b42bd9ea32cd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ececd59907fe31d94dd1f95f573a4bfd') in 0.017415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Lock Closed Icon.png
+  artifactKey: Guid(640b86b0058321e4fab8001b90531991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Lock Closed Icon.png using Guid(640b86b0058321e4fab8001b90531991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6307b86b695eb0306221eea6c73f793b') in 0.020960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split SW Icon.png
+  artifactKey: Guid(2d2efb71714622f48a1b75dcb0fbe9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split SW Icon.png using Guid(2d2efb71714622f48a1b75dcb0fbe9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d2aa552aeafa474d6081bd34bd8db3') in 0.015573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Heart Filled Icon.png
+  artifactKey: Guid(4217838d18d06c04fbb38361be7b975f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Heart Filled Icon.png using Guid(4217838d18d06c04fbb38361be7b975f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c240d570f2815fba00be4943da02d37e') in 0.017939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Heart Empty Icon.png
+  artifactKey: Guid(2b128a5e4d59a054e9193a83052697e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Heart Empty Icon.png using Guid(2b128a5e4d59a054e9193a83052697e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71db693f003d007ccf8c7747e2c6ffc0') in 0.035686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NESW Icon.png
+  artifactKey: Guid(00b091dc7bf12c342b2fb878622f1dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NESW Icon.png using Guid(00b091dc7bf12c342b2fb878622f1dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43839485951578f767565db568931b75') in 0.017599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NS Icon.png
+  artifactKey: Guid(5fbdf9d5c02a7c8488bf88d69359eb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NS Icon.png using Guid(5fbdf9d5c02a7c8488bf88d69359eb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb42da5ffc306c033ce94ccca6a51fc') in 0.018468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.396918 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split EW Icon.png
+  artifactKey: Guid(d1cf728dc5f8f1146bbdb20b1d77e043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split EW Icon.png using Guid(d1cf728dc5f8f1146bbdb20b1d77e043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfcca8d552697ea2866e9ea30fb2e30') in 0.018010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NES Icon.png
+  artifactKey: Guid(c13c42142e883da49b83522d06caeb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NES Icon.png using Guid(c13c42142e883da49b83522d06caeb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084042718f05a1a620e47bd3dfc7dfd9') in 0.018599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023536 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid W Icon.png
+  artifactKey: Guid(b2271e079e70d6c4dbee30583586e16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid W Icon.png using Guid(b2271e079e70d6c4dbee30583586e16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a64631e4f5c83a2b09bea913af627c6') in 0.024098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split ENW Icon.png
+  artifactKey: Guid(379bea2ed4d8a5045b698b8f260be4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split ENW Icon.png using Guid(379bea2ed4d8a5045b698b8f260be4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7212cc03c1b8c1e6e9ced415d985a6') in 0.017925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid NW Icon.png
+  artifactKey: Guid(4123cf49a9e94bf4e853f60226e46a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid NW Icon.png using Guid(4123cf49a9e94bf4e853f60226e46a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5722f308a20c7ff4e6c70b5574bf5eb1') in 0.016319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid SE Icon.png
+  artifactKey: Guid(ecd240902c8ca3141bfbc2512673e3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid SE Icon.png using Guid(ecd240902c8ca3141bfbc2512673e3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261bbda7e818fc59f1b04853ef304792') in 0.021571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.417375 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid Blank Icon.png
+  artifactKey: Guid(9a363b86d8dc1f9469388fb98608bb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid Blank Icon.png using Guid(9a363b86d8dc1f9469388fb98608bb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3f9c1ee4cecdd5b9c7ad7c7b1b8813') in 0.016785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid ESW Icon.png
+  artifactKey: Guid(946f65581e11fc94c83c26309552581f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid ESW Icon.png using Guid(946f65581e11fc94c83c26309552581f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45cc2767f1a0e68c4bb89d01bfb4ad2') in 0.021249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid NES Icon.png
+  artifactKey: Guid(c4ac5f3ea2864b943ac08da9a3e9d511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid NES Icon.png using Guid(c4ac5f3ea2864b943ac08da9a3e9d511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d40e03d3c35d70f58baa5be5abecb7') in 0.016505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051343 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Circle (Left) Icon.png
+  artifactKey: Guid(eb947f65937e82c47a6d1c17463829da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Circle (Left) Icon.png using Guid(eb947f65937e82c47a6d1c17463829da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68dbce8a2bc0581151375ba8ad79c5d9') in 0.019191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Horizontal (Middle) Icon.png
+  artifactKey: Guid(c0c6236a6ab80ef4a976fb36399ec076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Horizontal (Middle) Icon.png using Guid(c0c6236a6ab80ef4a976fb36399ec076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c835b67a2837f17589f910f534c0fd') in 0.016475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Horizontal (Left) Icon.png
+  artifactKey: Guid(ddab5934254f1ae49921cf4eeb754ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Horizontal (Left) Icon.png using Guid(ddab5934254f1ae49921cf4eeb754ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5382ee4713f6152c188c0057994588cf') in 0.011086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Vertical (Middle) Icon.png
+  artifactKey: Guid(1fa55995552a1ad4d8fb1977d1dc135f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Vertical (Middle) Icon.png using Guid(1fa55995552a1ad4d8fb1977d1dc135f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c852b149bd229119791fec6cd0418d') in 0.011464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.398723 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gear 1 Icon.png
+  artifactKey: Guid(561ce56b57e34e6499fda3c9e96b3559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gear 1 Icon.png using Guid(561ce56b57e34e6499fda3c9e96b3559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae6100e41a0c8de6cca0e71f9cdaca7') in 0.017657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gear 3 Icon.png
+  artifactKey: Guid(4cc60f0142748304ca70d11a2ce32203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gear 3 Icon.png using Guid(4cc60f0142748304ca70d11a2ce32203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076adc08fd2805ad408f84f3fcc3dd21') in 0.020134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008365 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Disk 4 Icon.png
+  artifactKey: Guid(d59ff638a09b0b84184c5dd3bdd73e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Disk 4 Icon.png using Guid(d59ff638a09b0b84184c5dd3bdd73e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a03ade454cbd878e6d8cd87723703b') in 0.020993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Edit Icon.png
+  artifactKey: Guid(8cd55c5b366c4574d93e99269b8a01d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Edit Icon.png using Guid(8cd55c5b366c4574d93e99269b8a01d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3719bcfe7ff89c9943f43e5c6def5f05') in 0.024033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Download Cloud Icon.png
+  artifactKey: Guid(a0b6f2cb1df595b46930a12f75a81772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Download Cloud Icon.png using Guid(a0b6f2cb1df595b46930a12f75a81772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818ce9ecf7f5b158278f014ed2d23787') in 0.021283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.609473 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Connection 3 Icon.png
+  artifactKey: Guid(8973670be4bd7fe49a6a7b82418796d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Connection 3 Icon.png using Guid(8973670be4bd7fe49a6a7b82418796d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48aaab73d7fb20a636a7542b19328211') in 0.019061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Disk 2 Icon.png
+  artifactKey: Guid(bd932e08b9a3647458aace94f16cf6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Disk 2 Icon.png using Guid(bd932e08b9a3647458aace94f16cf6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c147575d1af4761c2588214608d0b0ef') in 0.019462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.146348 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Cloud 2 Icon.png
+  artifactKey: Guid(867f6a421a63e4d41ab1ac5e7120e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Cloud 2 Icon.png using Guid(867f6a421a63e4d41ab1ac5e7120e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fdca3a57efc39ced19d760ed0cd73f') in 0.019422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.445350 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 3 Ellipsis Icon.png
+  artifactKey: Guid(98e0f9ed3a2516b4888cbb15bc0a3b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 3 Ellipsis Icon.png using Guid(98e0f9ed3a2516b4888cbb15bc0a3b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce678d177f920139a3f7ca168a1ed144') in 0.020555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Circle Dash Icon.png
+  artifactKey: Guid(a569a5f6afddaa34a9757d84bb77e9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Circle Dash Icon.png using Guid(a569a5f6afddaa34a9757d84bb77e9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2486e5f9f975845853d70d063978124f') in 0.019656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.582286 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid X Icon.png
+  artifactKey: Guid(31261ef829c8d5443941fedf93581633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid X Icon.png using Guid(31261ef829c8d5443941fedf93581633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69eb6950ab291ff0edcfa1b31c95bf67') in 0.019913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033247 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Left Icon.png
+  artifactKey: Guid(f610d61d0fea207459ce90dcbb4ea0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Left Icon.png using Guid(f610d61d0fea207459ce90dcbb4ea0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7c4684adb3e337d918155fe0b7b057') in 0.020794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right Bumper Icon.png
+  artifactKey: Guid(f26be72dc8be4764ca51a54b57d312d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right Bumper Icon.png using Guid(f26be72dc8be4764ca51a54b57d312d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc029d8f53775569c7813f77fb23047f') in 0.021547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right Icon.png
+  artifactKey: Guid(133177f5811aded4995e8f89f46aee00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right Icon.png using Guid(133177f5811aded4995e8f89f46aee00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2275381ffef0347b79c4695472aa69ea') in 0.022341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.541469 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Cross Icon.png
+  artifactKey: Guid(02b95ae4605dbb948aa440a62175c40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Cross Icon.png using Guid(02b95ae4605dbb948aa440a62175c40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fadb89b7941195d033ad169c869efa9') in 0.017623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042579 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Right Bumper Icon.png
+  artifactKey: Guid(b988e45b20744634e8f05906f78dfdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Right Bumper Icon.png using Guid(b988e45b20744634e8f05906f78dfdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd8ec8356898b211ccbf8238afb85f3') in 0.022776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank X Icon.png
+  artifactKey: Guid(f16ca8d9b20ab364ab5f5fb683243731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank X Icon.png using Guid(f16ca8d9b20ab364ab5f5fb683243731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4a68eabde2d9e8b81b4596ca6c5dcb') in 0.022153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid B Icon.png
+  artifactKey: Guid(f4e83e5b560bef7408b322d1703b4d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid B Icon.png using Guid(f4e83e5b560bef7408b322d1703b4d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bca70c09470d2f179ccd4ec3a3235c3') in 0.018510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007388 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left Icon.png
+  artifactKey: Guid(ced01e781c3826c448f19d0a7e13d7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left Icon.png using Guid(ced01e781c3826c448f19d0a7e13d7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbb1a02edd6c832179505f9dfde76e0') in 0.018176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Right 2 Icon.png
+  artifactKey: Guid(463c2aaea7772194fbd59989df2c5135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Right 2 Icon.png using Guid(463c2aaea7772194fbd59989df2c5135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f389cff664bf1b6a59e5d0ae070c46c') in 0.018312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.439279 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Cross Icon.png
+  artifactKey: Guid(dfcc201f2cac247418588a8f8601299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Cross Icon.png using Guid(dfcc201f2cac247418588a8f8601299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1aed27cfda2ae585d02fb24cf6b011') in 0.018684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left 2 Icon.png
+  artifactKey: Guid(e884030ede1e6034d84629a0b4acb5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left 2 Icon.png using Guid(e884030ede1e6034d84629a0b4acb5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f674408b9ce9d7109f4942b25794caaa') in 0.019690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023694 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 7pt Icon.png
+  artifactKey: Guid(dda637b01e0d3f54cb9342e29bfd1121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 7pt Icon.png using Guid(dda637b01e0d3f54cb9342e29bfd1121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb9e60733a2e2bac567d82d735ae655') in 0.017225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank B Icon.png
+  artifactKey: Guid(afcf80015f5ff514fb2494b415eeb6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank B Icon.png using Guid(afcf80015f5ff514fb2494b415eeb6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2983102b7af98dc9f8e92a12b54239c0') in 0.016925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064431 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 2pt Icon.png
+  artifactKey: Guid(d3583677195ecc645bee6ca3d5c03068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 2pt Icon.png using Guid(d3583677195ecc645bee6ca3d5c03068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c20f7d706a78ea272d8800c130e8177') in 0.013279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 5pt Icon.png
+  artifactKey: Guid(cb315a524431eba489474f0e41e28fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 5pt Icon.png using Guid(cb315a524431eba489474f0e41e28fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50d84760c8243d3c3ba0febbdfae8b4') in 0.014922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.429004 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 2-1pt Icon.png
+  artifactKey: Guid(01e5a57de5f823146b89862d2f42f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 2-1pt Icon.png using Guid(01e5a57de5f823146b89862d2f42f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cff4b7e684f2819ff58cb0a3a53eaf9') in 0.014426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 4-1pt Icon.png
+  artifactKey: Guid(12f86861311f44d498be1af5893d3779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 4-1pt Icon.png using Guid(12f86861311f44d498be1af5893d3779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2967ca7366ac94fd4724d2a49b93781e') in 0.015806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037972 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 1-1pt Icon.png
+  artifactKey: Guid(99ef4b1b6c988c54f992f3b96981549a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 1-1pt Icon.png using Guid(99ef4b1b6c988c54f992f3b96981549a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9f9e6d92e2b0ffd0a8d3504892caee') in 0.014330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 1-3pt Icon.png
+  artifactKey: Guid(71a05f27a813b0b40ba97c72bf8c59f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 1-3pt Icon.png using Guid(71a05f27a813b0b40ba97c72bf8c59f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f658bc290ee0bd03c8e1a936a51c47b') in 0.014742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015172 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Smooth 4 Icon.png
+  artifactKey: Guid(f9633802d07c8534b822260661b2dcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Smooth 4 Icon.png using Guid(f9633802d07c8534b822260661b2dcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90790572bd7cefb4ed746c636835400') in 0.017527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 3 Icon.png
+  artifactKey: Guid(6c7218760d7e1b041a1cbf797895f78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 3 Icon.png using Guid(6c7218760d7e1b041a1cbf797895f78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7801106cb2664827e9f08b0fc466298c') in 0.017769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 4 Icon.png
+  artifactKey: Guid(babc4a27f003ee94a9d37f5a7d24b3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 4 Icon.png using Guid(babc4a27f003ee94a9d37f5a7d24b3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcccfce61fe5c2d4f77fdada8a758ee6') in 0.017431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 2 Icon.png
+  artifactKey: Guid(df49e60286e084549bba8d9bebf38b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 2 Icon.png using Guid(df49e60286e084549bba8d9bebf38b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e28d15bbfecc80d6026f31ad41c1ff1') in 0.015595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.689788 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery No Dashless Icon.png
+  artifactKey: Guid(6a6898f5f34b5154aa1b3d44f98bc92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery No Dashless Icon.png using Guid(6a6898f5f34b5154aa1b3d44f98bc92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14f650f1565cffabeb099ebe3c143d9') in 0.017755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033964 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Bag 1 Icon.png
+  artifactKey: Guid(09ff2c9da44bcb740befe466a832c257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Bag 1 Icon.png using Guid(09ff2c9da44bcb740befe466a832c257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376fd8a54ef8d6fcc3d222c71263cb22') in 0.026393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Empty Icon.png
+  artifactKey: Guid(52ef2ea9601187e4c9fd3db7dd7027f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Empty Icon.png using Guid(52ef2ea9601187e4c9fd3db7dd7027f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c03830211eb37a7093315e67cabfd7') in 0.017675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.624832 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 7 NW Icon.png
+  artifactKey: Guid(ccc4a761be474794aa34e8820d384ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 7 NW Icon.png using Guid(ccc4a761be474794aa34e8820d384ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49f33443270d3645d671c9eba698fe5') in 0.017714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 7 SE Icon.png
+  artifactKey: Guid(12b5978509d7c4c40a7b23ff0adefc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 7 SE Icon.png using Guid(12b5978509d7c4c40a7b23ff0adefc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3caeab05a001e3372705bef978523b2d') in 0.019765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008290 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 6 SW Icon.png
+  artifactKey: Guid(122305796e017fb4ea7f820bb04db8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 6 SW Icon.png using Guid(122305796e017fb4ea7f820bb04db8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37f8f6bf8b752e9c020a5b3cd9e4e29') in 0.019790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 7 N Icon.png
+  artifactKey: Guid(e019bdf0d3613c04abc6f970450486c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 7 N Icon.png using Guid(e019bdf0d3613c04abc6f970450486c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7433492b8dfe093174e47938dc8795') in 0.016319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.130921 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 6 N Icon.png
+  artifactKey: Guid(06f9cca2a215cad41966d4e9e9ff06f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 6 N Icon.png using Guid(06f9cca2a215cad41966d4e9e9ff06f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655ddb6904869348496d1d56994de306') in 0.018120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 6 NW Icon.png
+  artifactKey: Guid(6525d93bdc5c93142a517c6f47ef8545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 6 NW Icon.png using Guid(6525d93bdc5c93142a517c6f47ef8545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64799f76fd1a24511d1810e481bc0d19') in 0.016204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.397598 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 5 S Icon.png
+  artifactKey: Guid(d6335867c9dc6514aacb877716335be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 5 S Icon.png using Guid(d6335867c9dc6514aacb877716335be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aef8933f56cf45d0024be6912d1d673') in 0.020504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 5 SW Icon.png
+  artifactKey: Guid(66cea11fb6a86534ab82d8712d6f782b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 5 SW Icon.png using Guid(66cea11fb6a86534ab82d8712d6f782b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1dee8775d6e4091e2faeca3c9c8964') in 0.020063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026758 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 W Icon.png
+  artifactKey: Guid(539a4c67d1d328e4ab6c8f533d26a90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 W Icon.png using Guid(539a4c67d1d328e4ab6c8f533d26a90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93e34c7b620032a29d9606eb0c31415') in 0.022790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 5 N Icon.png
+  artifactKey: Guid(fa24baa939b84ad47bcbddd283623c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 5 N Icon.png using Guid(fa24baa939b84ad47bcbddd283623c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67068f048e655e832ee7ac600cb49d3') in 0.015783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.428667 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 NE Icon.png
+  artifactKey: Guid(a718555c3c9d59846ac98a0c328a6de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 NE Icon.png using Guid(a718555c3c9d59846ac98a0c328a6de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1407acf550da21add2c6d2db152fb5') in 0.017876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 SW Icon.png
+  artifactKey: Guid(6d58acdac385dc546b74022fbe2912d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 SW Icon.png using Guid(6d58acdac385dc546b74022fbe2912d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9793eb988732cb164ac98034d0bc6b7b') in 0.020303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 SE Icon.png
+  artifactKey: Guid(d5882ef03c430c342ab211e6c2ceb253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 SE Icon.png using Guid(d5882ef03c430c342ab211e6c2ceb253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e3b84ad85e8d20b4c4a920328202cb') in 0.021023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002801 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 NW Icon.png
+  artifactKey: Guid(afa13aa3dd1037b4684bb0e9a8e18d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 NW Icon.png using Guid(afa13aa3dd1037b4684bb0e9a8e18d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888c856137c92ad583d5b3df0ae1a1de') in 0.019104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 S Icon.png
+  artifactKey: Guid(3fcadb60666ffdc4ca5aaae842a00cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 S Icon.png using Guid(3fcadb60666ffdc4ca5aaae842a00cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31457cb6d26e9ca921478015301360e6') in 0.026805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 NE Icon.png
+  artifactKey: Guid(45de8653136b13c4a9ecd7a7de0558f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 NE Icon.png using Guid(45de8653136b13c4a9ecd7a7de0558f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e870735c2d09da47540b4c5dc614d8') in 0.019206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.270001 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 SW Icon.png
+  artifactKey: Guid(5a459e69f1835a3478400adb5f1138f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 SW Icon.png using Guid(5a459e69f1835a3478400adb5f1138f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd764e0f6d607e2c73f76edd3ce5ed3ea') in 0.018948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 N Icon.png
+  artifactKey: Guid(d10be4c155f6e254a998cc68201d1afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 N Icon.png using Guid(d10be4c155f6e254a998cc68201d1afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2ac13d651b5b7440c79d2883f7dcfe') in 0.017967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.160431 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 N Icon.png
+  artifactKey: Guid(0135e3d1b81285f48997c72fd061f8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Icons/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 N Icon.png using Guid(0135e3d1b81285f48997c72fd061f8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb018f59766aa84c69db466c9a10782') in 0.018756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.085029 seconds.
+  path: Assets/Assets/M Studio/Art/Items/Bushes/bushes_08.png
+  artifactKey: Guid(3eb9fddd25b8548139877c93ed12a178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Items/Bushes/bushes_08.png using Guid(3eb9fddd25b8548139877c93ed12a178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b16d6174fea53e04a0a17450d6bc0b2') in 0.012581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.084585 seconds.
+  path: Assets/Assets/M Studio/Art/Intro/Background/bg_02.png
+  artifactKey: Guid(a9284c82772b542fbbf4fefa8c52de6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/M Studio/Art/Intro/Background/bg_02.png using Guid(a9284c82772b542fbbf4fefa8c52de6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2022dec9df056c5f7ad7dc9bc3ed5081') in 0.015153 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
